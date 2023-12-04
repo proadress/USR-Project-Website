@@ -1,15 +1,13 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": "主頁",
+  "another": "格狀檢視",
+  "plan1": "計畫一",
+  "plan2": "計畫二",
+  "plan3": "計畫三",
+  "plan4": "計畫四",
+  "plan5": "計畫五",
   "about": {
     "title": "About",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   }
 }
