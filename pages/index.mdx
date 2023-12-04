@@ -2,25 +2,9 @@
  
 Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
 
-## What is Nextra?
+import MySlider from "../components/slider"
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
-
-## Documentation
-
-The documentation is available at [https://nextra.site](https://nextra.site).
-
-# Buttons
-import {useState} from 'react';
-
-export function Counter({children}) {
-    const [count, setCount] = useState(0);
-    return (
-    <button onClick={()=> setCount(count+1)}
-        className="text-blue-100">
-        {children} {count} 
-    </button>)
-}
+<MySlider/>
 
 
-<Counter>**Clicks:** </Counter>
+
