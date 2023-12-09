@@ -1,12 +1,45 @@
 {
-  "index": "主頁",
-  "plan1": "計畫一",
-  "plan2": "計畫二",
-  "plan3": "計畫三",
-  "plan4": "計畫四",
-  "plan5": "計畫五",
+  "index": {
+    "title": "主頁",
+    "theme": {
+      "breadcrumb": false,
+      "sidebar": false,
+      "pagination": false,
+      "layout":"full"
+    }
+  },
+  "plan1": {
+    "title": "計畫一"
+  },
+  "plan2": {
+    "title": "計畫二"
+  },
+  "plan3": {
+    "title": "計畫三"
+  },
+  "plan4": {
+    "title": "計畫一"
+  },
+  "plan5": {
+    "title": "計畫一"
+  },
   "about": {
-    "title": "About",
+    "title": "關於我們",
     "type": "page"
+  },
+  
+  "company": {
+    "title": "Company",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "About",
+        "href": "/about"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "href": "mailto:hi@example.com"
+      }
+    }
   }
 }

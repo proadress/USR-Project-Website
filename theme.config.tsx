@@ -9,22 +9,33 @@ const config: DocsThemeConfig = {
       NTOU USR
     </span>
   </>,
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – NTOU'
+    }
+  },
+
   footer: {
     text: 'Made by NTOU',
   },
-  banner: {
-    key: '2.0-release',
-    text: (
-      <a href="https://nextra.site" target="_blank">
-        🎉 Nextra 2.0 is released. Read more →
-      </a>
-    )
-  },
+  // banner: {
+  //   key: '2.0-release',
+  //   text: (
+  //     <a href="https://nextra.site" target="_blank">
+  //       🎉 Nextra 2.0 is released. Read more →
+  //     </a>
+  //   )
+  // },
   sidebar: {
     autoCollapse: true,
-    defaultMenuCollapseLevel: 1
+    defaultMenuCollapseLevel: 1, toggleButton: true,
   },
+  toc: {
+    backToTop: true,
+    title: 'NTOU USR',
+  },
+  feedback: { content: null },
+  docsRepositoryBase: 'https://github.com/proadress/documentation-starter-kit/tree/main',
 }
 
 export default config
