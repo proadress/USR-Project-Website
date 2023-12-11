@@ -3,43 +3,31 @@
     "title": "主頁",
     "theme": {
       "breadcrumb": false,
-      "sidebar": false,
-      "pagination": false,
-      "layout":"full"
+      "pagination": false
     }
   },
+  
   "plan1": {
-    "title": "計畫一"
+    "title": "海洋運動人才培育"
   },
   "plan2": {
-    "title": "計畫二"
+    "title": "海洋觀光人才培育"
   },
   "plan3": {
-    "title": "計畫三"
+    "title": "資訊科技人才培育"
   },
   "plan4": {
-    "title": "計畫一"
+    "title": "文化文創人才培育"
   },
   "plan5": {
-    "title": "計畫一"
+    "title": "藻類富裕人才培育"
   },
   "about": {
     "title": "關於我們",
     "type": "page"
   },
-  
-  "company": {
-    "title": "Company",
-    "type": "menu",
-    "items": {
-      "about": {
-        "title": "About",
-        "href": "/about"
-      },
-      "contact": {
-        "title": "Contact Us",
-        "href": "mailto:hi@example.com"
-      }
-    }
+  "signin": {
+    "title": "登入",
+    "type": "page"
   }
 }

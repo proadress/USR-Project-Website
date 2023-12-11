@@ -1,6 +1,6 @@
 import { MySlider } from "./base/slider";
-import { RowCard } from "./base/cards/RowCard";
-import { items } from "./items";
+import { RowCard } from "./base/card";
+import { items } from "./data";
 
 
 export const HomeSlider = () => {
@@ -24,7 +24,7 @@ export const HotRowCard = () => {
         items["plan1"]["item3"],
     ]
     return (
-        < RowCard cardData={cardData} />
+        < RowCard cardDatas={cardData} />
     );
 }
 export const NewRowCard = () => {
@@ -35,7 +35,7 @@ export const NewRowCard = () => {
         items["plan1"]["item3"],
     ]
     return (
-        < RowCard cardData={cardData} />
+        < RowCard cardDatas={cardData} />
     );
 }
 
