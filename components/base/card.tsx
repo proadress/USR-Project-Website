@@ -4,18 +4,21 @@ import { items } from "../data";
 
 export const Card = ({ cardData }: { cardData: object }) => {
   const linkHref = cardData['url'] || '#';
+  const title: string = cardData['title'];
+  const maxLength: number = 10;
+  const truncatedTitle = title.length > maxLength ? title.substring(0, maxLength) + "..." : title;
 
   return (
-    <div className="w-48 h-80 p-4 transform hover:scale-110 cursor-pointer transition-transform duration-300 ease-in-out mb-8">
+    <div className="card m-2 w-48 shadow hover:scale-110 transition-transform duration-300 ease-in-out border-2 dark:border-gray-500 dark:hover:border-gray-100">
       <Link href={linkHref}>
-        <div className="max-w-full rounded-lg overflow-hidden shadow-lg border-2 dark:border-gray-500 dark:hover:border-gray-100">
-          <img className="h-40 w-full object-cover" src={cardData['image']} alt={cardData['title']} />
-          <div className="px-6 py-4 h-40">
-            <div className="font-bold text-xl mb-2">{cardData['title']}</div>
-            <p className="text-gray-700 text-base dark:text-yellow-100">{cardData['cardDiscription']}</p>
-          </div>
+        <figure>
+          <img src={cardData['image']} className="h-32" />
+        </figure>
+        <div className="card-body">
+          <h5 className="card-title">{truncatedTitle}</h5>
+          <p className="text-gray-700 text-base dark:text-yellow-100">價錢：{cardData['price']}</p>
         </div>
-      </Link >
+      </Link>
     </div>
   );
 };
