@@ -16,11 +16,27 @@ export const Plan1 = () => {
         < Panels cardDatas={cardDatas} />
     );
 }
+export const Plan3 = () => {
+    const cardDatas = [
+        items["plan3"]["item1"],
+        items["plan3"]["item2"],
+        items["plan3"]["item3"],
+        items["plan3"]["item4"],
+    ]
+    return (
+        < Panels cardDatas={cardDatas} />
+    );
+}
+
+interface ProductDetailsProps {
+    plan: number;
+    item: number;
+}
 
 
-export const ProductDetails = ({ item }, { item: number }) => {
+export const ProductDetails: React.FC<ProductDetailsProps> = ({ plan = 1, item }) => {
     // 示例商品数据，实际应从数据库或 API 中获取
-    const product = items["plan1"]["item" + item];
+    const product = items["plan" + plan]["item" + item];
     return (<ProductPage product={product} />);
 };
 
