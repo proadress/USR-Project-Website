@@ -3,7 +3,9 @@
     "title": "主頁",
     "theme": {
       "breadcrumb": false,
-      "pagination": false
+      "pagination": false,
+      "sidebar": false,
+      "layout": "full"
     }
   },
   

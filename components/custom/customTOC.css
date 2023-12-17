@@ -1,0 +1,52 @@
+  /*改 nextra 設定值*/
+  .slick-list{
+    width: calc(100%);
+  }
+  .nx-max-w-6xl {
+    max-width: calc(100%);
+}
+
+/* 客製化toc */
+.custom-toc {
+    position: fixed;
+    top: calc(20%); /* 計算 top 位置，根據需要調整 */
+    right: calc(8%); /* 計算 right 位置，根據需要調整 */
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    z-index: 1000;
+    border-radius: 12px; /* 調整 border-radius 以使其成為圓弧 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 可以添加陰影效果，根據需要調整 */
+    font-weight: bold;
+    color: #333;
+  }
+  .custom-toc.visible {
+    display: block;
+  }
+
+  .custom-toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* 清除 ul 的默認 margin */
+  }
+  
+  .custom-toc li {
+    margin-bottom: 10px;
+  }
+  
+  .custom-toc li:last-child {
+    margin-bottom: 0; /* 最後一個項目不加間距 */
+  }
+
+  .custom-toc a {
+    text-decoration: none;
+  }
+
+  .custom-toc a:hover {
+    color: #007bff; /* 滑鼠懸停時的顏色，根據需要調整 */
+  }
+
+  .custom-toc .custom-active {
+    color: rebeccapurple !important; /* 如果需要，使用 !important 增加優先級 */
+  }

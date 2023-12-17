@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import customTOC from './components/custom/customTOC'
 
 
 const config: DocsThemeConfig = {
@@ -31,8 +32,10 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1, toggleButton: true,
   },
   toc: {
-    backToTop: true,
-    title: 'NTOU USR',
+    // backToTop: true,
+    // title: 'NTOU USR',
+    component: customTOC,
+
   },
   feedback: { content: null },
   docsRepositoryBase: 'https://github.com/proadress/documentation-starter-kit/tree/main',

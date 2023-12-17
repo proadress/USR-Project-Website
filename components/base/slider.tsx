@@ -17,7 +17,7 @@ export const MySlider = ({ slides }: { slides: string[] }) => {
     };
 
     return (
-        <Slider {...settings} className="flex flex-auto border-collapse rounded-3xl dark:border-gray-600 border-2">
+        <Slider {...settings} className="flex flex-auto border-collapse dark:border-gray-600 ">
             {slides.map((slide, index) => (
                 <img key={index} src={slide} className="w-full object-cover filter drop-shadow-md dark:drop-shadow-light md:drop-shadow-lg" alt={`Slide ${index + 1}`} />
             ))}
