@@ -1,23 +1,30 @@
 # Nextra Docs Template 
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+這是用 nextra 和 tailwind css 開發的網站
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## Local Development 本地開發
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
-
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
+第一步：(必須)安裝環境
 First, run `pnpm i` to install the dependencies.
 
+第二步：執行
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
-## License
+## 資料夾結構
 
-This project is licensed under the MIT License.
+元件都放在components
+所有靜態資源都放在public
+所有頁面都放在page(主要)
+
+其他盡量不要更改
+
+注意！node_modules不要上傳
+
+## 補充
+
+已經安裝好可以用的css資源
+[**Tailinwd css →**](https://tailwindcss.com/)
+
+[**Daisy UI →**](https://daisyui.com/)
+
+
