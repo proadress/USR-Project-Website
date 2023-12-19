@@ -12,7 +12,8 @@ export const ProductPage: React.FC<{ product: Item }> = ({ product }) => {
             <div className="card-body">
                 <h1 className="card-title">{product.title}</h1>
                 <p>Click the button to watch on Jetflix app.</p>
-                <div className="">商品數量</div>
+                <p className="">商品數量</p>
+                <p className="">${product.price * count}</p>
                 <div className='flex items-center space-x-4'>
                     <button className="btn btn-xs btn-neutral" onClick={() => {
                         if (count - 1 > 0) {
