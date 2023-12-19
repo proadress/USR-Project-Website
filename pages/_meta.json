@@ -1,35 +1,28 @@
 {
   "index": {
     "title": "主頁",
-    "theme": {
-      "breadcrumb": false,
-      "pagination": false,
-      "sidebar": false,
-      "layout": "full"
-    }
+    "type": "page"
   },
-  
   "plan1": {
-    "title": "海洋運動人才培育"
+    "title": "海洋運動"
   },
   "plan2": {
-    "title": "海洋觀光人才培育"
+    "title": "海洋觀光"
   },
   "plan3": {
-    "title": "智慧島嶼元宇宙與電商平台整合行銷"
+    "title": "智慧島嶼"
   },
   "plan4": {
-    "title": "文化文創人才培育"
+    "title": "文化文創"
   },
   "plan5": {
-    "title": "藻類富裕人才培育"
-  },
-  "about": {
-    "title": "關於我們",
-    "type": "page"
+    "title": "海藻生態"
   },
   "signin": {
     "title": "登入",
+    "type": "page"
+  },
+  "btn": {
     "type": "page"
   }
 }

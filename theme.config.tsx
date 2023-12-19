@@ -5,10 +5,7 @@ import customTOC from './components/custom/customTOC'
 
 const config: DocsThemeConfig = {
   logo: <>
-    <img src="logo.png" width="50px" height="50px" />
-    <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-      NTOU USR
-    </span>
+    <img src="logo.png" width="60px" height="60px" />
   </>,
   useNextSeoProps() {
     return {
@@ -17,16 +14,14 @@ const config: DocsThemeConfig = {
   },
 
   footer: {
-    text: 'Made by NTOU',
+    text:
+      <div className='flex-row'>
+        <div>Copyright © 2021國立臺灣海洋大學USR/B計畫.</div>
+        <div> +886 930772965  </div>
+        <div>基隆市中正區北寧路2號</div>
+      </div>
+
   },
-  // banner: {
-  //   key: '2.0-release',
-  //   text: (
-  //     <a href="https://nextra.site" target="_blank">
-  //       🎉 Nextra 2.0 is released. Read more →
-  //     </a>
-  //   )
-  // },
   sidebar: {
     autoCollapse: true,
     defaultMenuCollapseLevel: 1, toggleButton: true,

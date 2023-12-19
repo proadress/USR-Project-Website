@@ -7,10 +7,10 @@ import { useRouter } from "next/router";
 
 export const Plan1 = () => {
     const cardDatas = [
-        items["plan1"]["item1"],
-        items["plan1"]["item2"],
-        items["plan1"]["item3"],
-        items["plan1"]["item4"],
+        items[0][0],
+        items[0][1],
+        items[0][2],
+        items[0][3],
     ]
     return (
         < Panels cardDatas={cardDatas} />
@@ -18,10 +18,10 @@ export const Plan1 = () => {
 }
 export const Plan3 = () => {
     const cardDatas = [
-        items["plan3"]["item1"],
-        items["plan3"]["item2"],
-        items["plan3"]["item3"],
-        items["plan3"]["item4"],
+        items[2][0],
+        items[2][1],
+        items[2][2],
+        items[2][3],
     ]
     return (
         < Panels cardDatas={cardDatas} />
@@ -36,7 +36,7 @@ interface ProductDetailsProps {
 
 export const ProductDetails: React.FC<ProductDetailsProps> = ({ plan = 1, item }) => {
     // 示例商品数据，实际应从数据库或 API 中获取
-    const product = items["plan" + plan]["item" + item];
+    const product = items[plan - 1][item - 1];
     return (<ProductPage product={product} />);
 };
 

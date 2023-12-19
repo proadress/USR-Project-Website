@@ -1,6 +1,16 @@
-export const items = {
-    plan1: {
-        item1: {
+export interface Item {
+    url: string
+    title: string
+    cardDiscription: string
+    content: string
+    price: number
+    image: string
+}
+
+
+export const items: Item[][] =
+    [[
+        {
             url: "plan1/item1",
             title: "潛能無限",
             cardDiscription: "發掘您潛在的無限可能性",
@@ -8,7 +18,7 @@ export const items = {
             price: 100,
             image: "plan1/itemCard1.jpg",
         },
-        item2: {
+        {
             url: "plan1/item2",
             title: "潛海戰將",
             cardDiscription: "成為海洋的征服者，挑戰自己的極限，參與激動人心的海洋冒險，體驗前所未有的冒險之旅。",
@@ -16,7 +26,7 @@ export const items = {
             price: 110,
             image: "plan1/itemCard2.jpg",
         },
-        item3: {
+        {
             url: "plan1/item3",
             title: "探索海洋",
             cardDiscription: "深入探索神秘的海洋世界，發現奇幻的生物與美麗的景觀，讓您的探險之心得到滿足。",
@@ -25,7 +35,7 @@ export const items = {
             image: "plan1/itemCard3.jpg",
 
         },
-        item4: {
+        {
             url: "plan1/item4",
             title: "安全使用浮具遊憩推廣活動",
             cardDiscription: "學習如何安全、合理地使用浮具，參與推廣活動，享受輕鬆愉悅的水上遊憩時光。",
@@ -34,7 +44,7 @@ export const items = {
             image: "plan1/itemCard4.jpg",
 
         },
-        item5: {
+        {
             url: "plan1/item5",
 
             title: "2023清華大學獨木舟及SUP立式划槳體驗營",
@@ -43,10 +53,9 @@ export const items = {
             price: 110,
             image: "plan1/itemCard5.jpg",
 
-        },
-    },
-    plan3: {
-        item1: {
+        }], [],
+    [
+        {
             url: "plan3/item1",
             title: "商城",
             cardDiscription: "擺放子計畫提供商品及票劵，使用者透過網路下單購買",
@@ -54,7 +63,7 @@ export const items = {
             price: 100,
             image: "plan3/item1.png",
         },
-        item2: {
+        {
             url: "plan3/item2",
             title: "博物館",
             cardDiscription: "結合個子計畫，將人文歷史生態保育等介紹展示。",
@@ -62,7 +71,7 @@ export const items = {
             price: 110,
             image: "plan3/item2.png",
         },
-        item3: {
+        {
             url: "plan3/item3",
             title: "獨木舟體驗",
             cardDiscription: "讓使用者透過VR裝置及電腦設備，體驗獨木舟活動",
@@ -71,7 +80,7 @@ export const items = {
             image: "plan3/item3.png",
 
         },
-        item4: {
+        {
             url: "plan3/item4",
             title: "後端登入",
             cardDiscription: "提供FB、LINE、GOOGLE第三方登入，保障登入安全性",
@@ -80,5 +89,5 @@ export const items = {
             image: "plan3/item4.png",
 
         },
-    },
-};
+    ], [], []
+    ]
