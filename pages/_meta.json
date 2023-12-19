@@ -3,20 +3,8 @@
     "title": "主頁",
     "type": "page"
   },
-  "plan1": {
-    "title": "海洋運動"
-  },
-  "plan2": {
-    "title": "海洋觀光"
-  },
   "plan3": {
     "title": "智慧島嶼"
-  },
-  "plan4": {
-    "title": "文化文創"
-  },
-  "plan5": {
-    "title": "海藻生態"
   },
   "signin": {
     "title": "登入",
