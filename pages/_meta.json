@@ -21,8 +21,5 @@
   "signin": {
     "title": "登入",
     "type": "page"
-  },
-  "btn": {
-    "type": "page"
   }
 }
