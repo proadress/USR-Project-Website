@@ -12,6 +12,14 @@ const config: DocsThemeConfig = {
       titleTemplate: '%s – NTOU'
     }
   },
+  banner: {
+    key: '2.0-release',
+    text: (
+      <a href="https://nextra.site" target="_blank">
+        🎉 全館體驗票卷3件88折 →
+      </a>
+    )
+  },
 
   footer: {
     text:
@@ -20,7 +28,6 @@ const config: DocsThemeConfig = {
         <div> +886 930772965  </div>
         <div>基隆市中正區北寧路2號</div>
       </div>
-
   },
   sidebar: {
     autoCollapse: true,

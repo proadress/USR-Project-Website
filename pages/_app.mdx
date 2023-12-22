@@ -1,6 +1,11 @@
 import 'tailwindcss/tailwind.css'
 import '../components/custom/customTOC.css';
+import Main from "../components/Main";
 
-export default function ({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function Nextra({ Component, pageProps }) {
+  return (
+    <Main>
+      <Component {...pageProps} />
+    </Main>
+  );
 }

@@ -5,8 +5,10 @@ import { items } from "./data";
 
 export const HomeSlider = () => {
     const slides = [
-        "shoe.jpg",
-        "shoe.jpg",
+        "slider/messageImage_1703145095514.jpg",
+        "slider/S__73564162.jpg",
+        "slider/S__73580546.jpg",
+
     ];
     return (
         < MySlider slides={slides} />
@@ -14,25 +16,13 @@ export const HomeSlider = () => {
 }
 
 export const HotRowCard = () => {
-    const cardData = [
-        items[2][0],
-        items[2][3],
-        items[2][1],
-        items[2][2],
-    ]
     return (
-        < RowCard cardDatas={cardData} title={'熱門商品'} />
+        < RowCard cardDatas={items[2]} title={'熱門商品'} />
     );
 }
 export const NewRowCard = () => {
-    const cardData = [
-        items[2][3],
-        items[2][1],
-        items[2][0],
-        items[2][2],
-    ]
     return (
-        < RowCard cardDatas={cardData} title={'最新上架'} />
+        < RowCard cardDatas={items[2]} title={'最新上架'} />
     );
 }
 

@@ -2,20 +2,15 @@ import { RowPanel } from "../components/base/card"
 import { items } from "../components/data"
 
 
-<img src="plan3/home.png"/>
-<div style={{height: 100}}/>
+<img className="lg:w-3/4" src="plan3/home.png"/>
+<div style={{height: 50}}/>
 
+## 獨木舟
+<RowPanel cardData={items[2][0]} content={"1"} isRight={true}/>
 
-## 商品1
-<RowPanel cardData={items[2][0]} isRight={true}/>
+## 博物館
+<RowPanel cardData={items[2][1]}content={"2"} isRight={false}/>
+<RowPanel cardData={items[2][2]}content={"3"} isRight={true}/>
 
-## 商品2
-<RowPanel cardData={items[2][1]} isRight={false}/>
-
-## 商品3
-<RowPanel cardData={items[2][2]} isRight={true}/>
-
-## 商品4
-<RowPanel cardData={items[2][3]} isRight={false}/>
 
 

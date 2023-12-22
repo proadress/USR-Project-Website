@@ -1,8 +1,7 @@
 export interface Item {
     url: string
     title: string
-    cardDiscription: string
-    content: string
+    introduction: string
     price: number
     image: string
 }
@@ -13,37 +12,24 @@ export const items: Item[][] =
     [
         {
             url: "plan3/item1",
-            title: "商城",
-            cardDiscription: "擺放子計畫提供商品及票劵，使用者透過網路下單購買",
-            content: "擺放子計畫提供商品及票劵，使用者透過網路下單購買",
-            price: 2999,
-            image: "plan3/item1.png",
+            title: "和平島海上活動體驗！VR獨木舟體驗活動券",
+            introduction: "渴望在家中感受此項海上活動嗎？現在，透過我們的線上VR獨木舟體驗券，您可以在不需海域環境及不需更換任何裝備的情況下，沉浸虛擬及划槳的體驗中！",
+            price: 100,
+            image: "plan3/canoe.jpg",
         },
         {
             url: "plan3/item2",
-            title: "博物館",
-            cardDiscription: "結合個子計畫，將人文歷史生態保育等介紹展示。",
-            content: "結合個子計畫，將人文歷史生態保育等介紹展示。",
-            price: 599,
-            image: "plan3/item2.png",
+            title: "遊歷和平島夢幻體驗！線上VR獨木舟遊玩券",
+            introduction: "追溯古今，探索過去的每一刻，我們引以為傲地呈現線上歷史故事導覽服務。這不僅是一次博物館之旅，更是一趟穿越時光的冒險。透過深情的語音解說，您將被引領進入歷史的繁星點點中，聆聽每一個激動人心的故事，重現歷史的風華。",
+            price: 100,
+            image: "plan3/museum.jpg",
         },
         {
             url: "plan3/item3",
-            title: "獨木舟體驗",
-            cardDiscription: "讓使用者透過VR裝置及電腦設備，體驗獨木舟活動",
-            content: "讓使用者透過VR裝置及電腦設備，體驗獨木舟活動",
-            price: 3999,
-            image: "plan3/item3.png",
-
-        },
-        {
-            url: "plan3/item4",
-            title: "後端登入",
-            cardDiscription: "提供FB、LINE、GOOGLE第三方登入，保障登入安全性",
-            content: "提供FB、LINE、GOOGLE第三方登入，保障登入安全性",
-            price: 499,
-            image: "plan3/item4.png",
-
+            title: "搭上時光機探索和平島！線上語音故事券(博物館互動限定)",
+            introduction: "踏上和平島的奇幻之旅，體驗知名在地景點。我們為您量身打造的暢遊和平島知名景點特色行程，將帶您進入各景點展區，搭配歷史特色互動遊戲，更加認識場景裡史背景集故事！",
+            price: 200,
+            image: "plan3/gamemap.jpg",
         },
     ], [], []
     ]
