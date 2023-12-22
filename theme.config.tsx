@@ -39,7 +39,7 @@ const config: DocsThemeConfig = {
     text:
       <div className='flex-row'>
         <div>Copyright © 2023國立臺灣海洋大學USR計畫.</div>
-        <div>+886 02 2462 2192</div>
+        <div>+886-2-2462-2192</div>
         <div>基隆市中正區北寧路2號</div>
       </div>
   },

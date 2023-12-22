@@ -5,9 +5,9 @@ import { items } from "./data";
 
 export const HomeSlider = () => {
     const slides = [
-        "slider/messageImage_1703145095514.jpg",
-        "slider/S__73564162.jpg",
-        "slider/S__73580546.jpg",
+        "slider/88.jpg",
+        "slider/1.jpg",
+        "slider/2.jpg",
 
     ];
     return (

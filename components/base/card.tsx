@@ -17,7 +17,7 @@ export const Card: React.FC<{ cardData: Item }> = ({ cardData }) => {
         </figure>
         <div className="card-body">
           <p className="card-title">
-            {truncatedTitle}
+            {cardData.card}
           </p>
           <div className="card-actions justify-end items-end">
             <div className="badge badge-outline">${cardData.price}</div>
