@@ -5,7 +5,7 @@ import React from "react";
 
 export const Card: React.FC<{ cardData: Item }> = ({ cardData }) => {
   const linkHref = cardData.url || '#';
-  const title: string = cardData.title;
+  const title: string = cardData.card;
   const maxLength: number = 8;
   const truncatedTitle = title.length > maxLength ? title.substring(0, maxLength) : title;
 

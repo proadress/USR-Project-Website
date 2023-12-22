@@ -4,8 +4,18 @@ import customTOC from './components/custom/customTOC'
 
 
 const config: DocsThemeConfig = {
+  head: () => {
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="NTOU" />
+      <meta property="og:description" content="NTOU" />
+    </>
+  },
   logo: <>
-    <img src="logo.png" width="60px" height="60px" />
+    <img src="logo.png" width="70px" height="70px" />
+    <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
+      海大USR計畫
+    </span>
   </>,
   useNextSeoProps() {
     return {
@@ -19,6 +29,10 @@ const config: DocsThemeConfig = {
         🎉 全館體驗票卷3件88折 →
       </a>
     )
+  },
+  navigation: {
+    prev: false,
+    next: false
   },
 
   footer: {
@@ -41,6 +55,8 @@ const config: DocsThemeConfig = {
   },
   feedback: { content: null },
   docsRepositoryBase: 'https://github.com/proadress/documentation-starter-kit/tree/main',
+
+  gitTimestamp: null
 }
 
 export default config
