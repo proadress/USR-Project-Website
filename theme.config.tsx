@@ -37,8 +37,8 @@ const config: DocsThemeConfig = {
 
   footer: {
     text:
-      <div className='flex-row'>
-        <div>Copyright © 2023國立臺灣海洋大學USR計畫.</div>
+      <div>
+        <div>Copyright © 2023國立臺灣海洋大學USR計畫</div>
         <div>+886-2-2462-2192</div>
         <div>基隆市中正區北寧路2號</div>
       </div>
@@ -51,7 +51,6 @@ const config: DocsThemeConfig = {
     // backToTop: true,
     // title: 'NTOU USR',
     component: customTOC,
-
   },
   feedback: { content: null },
   docsRepositoryBase: 'https://github.com/proadress/documentation-starter-kit/tree/main',
