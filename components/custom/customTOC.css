@@ -1,25 +1,4 @@
-/*改header背景、文字顏色*/
-.nextra-nav-container {
-  background-color: #5b67a2 !important;
-  opacity: 1.0;
-  color:#ffffff;
-}
-.nextra-nav-container-blur{
-  background-color: #5b67a2 !important;
-  opacity: 1.0;
-}
-
-/* main{
-  padding-left: 0px;
-  padding-right: 0px;
-} */
-.slide-background{
-  background-color: #5b67a2;
-  opacity: 1.0;
-  width: calc(100%);
-  padding:2px;
-}
-  /*改 nextra 設定值*/
+/*改 nextra 設定值*/
 .slick-list{
   width: calc(100%);
 }
