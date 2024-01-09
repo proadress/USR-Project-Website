@@ -1,7 +1,10 @@
 {
   "index": {
     "title": "主頁",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "full"
+    }
   },
   "plan1": {
     "title": "(1).海洋運動遊程創新與元宇宙"
