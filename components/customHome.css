@@ -31,9 +31,12 @@
   background-color: #5b67a2;
 }
 /*改版面大小*/
-.nx-pr-\[max\(env\(safe-area-inset-right\)\,1\.5rem\)\] {
+/* .nx-pr-\[max\(env\(safe-area-inset-right\)\,1\.5rem\)\] {
   padding-left: 0rem;
   padding-right: 0rem;
+} */
+nx-max-w-\[90rem\]  {
+  max-width: calc(100%);
 }
 /*改廣告看板背景顏色*/
 .slide-background{
