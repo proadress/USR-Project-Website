@@ -16,7 +16,6 @@
   --tw-text-opacity: .75;
   color: rgba(255,255,255,var(--tw-text-opacity));
 }
-
 /*改header搜尋框(正常、點擊後)顏色*/
 .nx-bg-black\/\[\.05\] {
   background-color: #ffffff;
@@ -27,10 +26,20 @@
   background-color: rgba(255,255,255,1.0);
   opacity: 1.0;
 }
-  /* main{
-    padding-left: 0px;
-    padding-right: 0px;
-  } */
+/*改footer背景顏色*/
+.nx-bg-gray-100 {
+  background-color: #5b67a2;
+}
+/*改版面大小*/
+/* .nx-px-6 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.md\:nx-px-12 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+} */
+/*改廣告看板背景顏色*/
 .slide-background{
   background-color: #5b67a2;
   opacity: 1.0;
