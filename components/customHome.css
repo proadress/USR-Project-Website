@@ -49,5 +49,11 @@ footer{
   background-color: #5b67a2;
   opacity: 1.0;
   width: calc(100%);
-  padding:calc(5%);
+  padding-top:calc(3%);
+  padding-bottom:calc(3%);
+  padding-left:calc(12%);
+  padding-right:calc(12%);
+}
+.slide-setting{
+  width: calc(80%);
 }
