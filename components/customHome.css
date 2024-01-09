@@ -57,3 +57,29 @@ footer{
 .slide-setting{
   width: calc(80%);
 }
+/*卡片設定*/
+.card-body{
+  background-color: #ffffff;
+  padding:0.8rem;
+  padding-bottom: 5rem;
+}
+.odd-background{
+  background-color: #d1d6e5  ;
+}
+.even-background{
+  background-color: #e4e6f1  ;
+}
+.price{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#5b67a2;
+}
+/*控制標題內容行數*/
+.card-title {
+  font-size: 1.25rem;
+  min-height: 3em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}

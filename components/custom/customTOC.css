@@ -10,7 +10,7 @@
 .custom-toc {
     position: fixed;
     top: calc(20%); /* 計算 top 位置，根據需要調整 */
-    right: calc(8%); /* 計算 right 位置，根據需要調整 */
+    right: calc(2%); /* 計算 right 位置，根據需要調整 */
     display: none;
     background-color: #fff;
     border: 1px solid #ddd;
