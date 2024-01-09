@@ -3,7 +3,7 @@
     "title": "主頁",
     "type": "page",
     "theme": {
-      "layout": "full"
+      "layout": "raw"
     }
   },
   "plan1": {
