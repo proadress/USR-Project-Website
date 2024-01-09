@@ -11,7 +11,7 @@ export const HomeSlider = () => {
 
     ];
     return (
-        <div class="slide-background">
+        <div className="slide-background">
         < MySlider slides={slides} />
         </div>
     );
