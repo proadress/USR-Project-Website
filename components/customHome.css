@@ -63,12 +63,6 @@ footer{
   padding:0.8rem;
   padding-bottom: 5rem;
 }
-.odd-background{
-  background-color: #d1d6e5  ;
-}
-.even-background{
-  background-color: #e4e6f1  ;
-}
 .price{
   font-size: 1.5rem;
   font-weight: bold;

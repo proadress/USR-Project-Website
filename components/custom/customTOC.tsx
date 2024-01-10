@@ -41,7 +41,7 @@ const CustomTOC = ({ headings }) => {
 
     const observer = new IntersectionObserver(handleIntersection, { threshold: 0.6 });
 
-    headings.forEach(heading => {
+    headings.forEach((heading: { id: string; }) => {
       const element = document.getElementById(heading.id);
       if (element) {
         const parentElement = element.parentElement.parentElement;
@@ -53,7 +53,7 @@ const CustomTOC = ({ headings }) => {
     });
 
     return () => {
-      headings.forEach(heading => {
+      headings.forEach((heading: { id: string; }) => {
         const element = document.getElementById(heading.id);
         if (element) {
           const parentElement = element.parentElement.parentElement;

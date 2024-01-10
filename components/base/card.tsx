@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { Item, items } from "../data";
 import React from "react";
-import classNames from "classnames";
 
 export const Card: React.FC<{ cardData: Item }> = ({ cardData }) => {
   const linkHref = cardData.url || "#";
@@ -19,7 +18,7 @@ export const Card: React.FC<{ cardData: Item }> = ({ cardData }) => {
         </figure>
         <div className="flex card-body justify-around">
           <div style={{ flex: 2 }}>
-            <p className="card-title line-clamp-2">{cardData.card}</p>
+            <p className="card-title line-clamp-2 text-slate-800">{cardData.card}</p>
           </div>
           <div className="card-actions justify-start items-end" style={{ flex: 1 }}>
             <div className="price">${cardData.price}</div>
@@ -33,21 +32,12 @@ export const Card: React.FC<{ cardData: Item }> = ({ cardData }) => {
 export const RowCard: React.FC<{
   cardDatas: Item[];
   title: string;
-  num: int;
+  num: number;
 }> = ({ cardDatas, title, num }) => {
   return (
-    <div
-      className={`rounded-3xl ${classNames({
-        "odd-background": num % 2 !== 0,
-        "even-background": num % 2 === 0,
-      })}`}
-    >
-      <div className="space-y-8">
-        <div className="h-1"></div>
-        <div
-          className="text-5xl text-center"
-          style={{ fontWeight: "bold", color: "#545051" }}
-        >
+    <div className="rounded-3xl bg-slate-200">
+      <div className="space-y-8 p-10">
+        <div className="text-5xl text-center text-slate-600 font-bold">
           {title}
         </div>
         <div className="flex items-center justify-evenly">
@@ -59,8 +49,8 @@ export const RowCard: React.FC<{
           ))}
         </div>
         <div className="h-1"></div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 };
 
