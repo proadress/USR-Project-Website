@@ -11,7 +11,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <>
             <div className="flex">
                 <Sidebar planNum={plan} itemNum={item} />
-                <div className="p-8 w-2/3">
+                <div className="p-8 w-3/4">
                     <ProductDetails plan={plan} item={item} />
                 </div>
             </div>

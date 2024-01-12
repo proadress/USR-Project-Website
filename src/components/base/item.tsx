@@ -13,8 +13,8 @@ export const ProductPage: React.FC<{ product: Item }> = ({ product }) => {
             </figure>
             <div className="card-body">
                 <h1 className="card-title">{product.title}</h1>
-                <p className="flex items-end">商品數量</p>
                 <p className="">${product.price * count}</p>
+                <p className="flex items-end">商品數量</p>
                 <div className='flex items-center space-x-4'>
                     <button className="btn btn-xs btn-outline" onClick={() => {
                         if (count - 1 > 0) {
@@ -62,7 +62,7 @@ export const ProductPage: React.FC<{ product: Item }> = ({ product }) => {
                 </TableBody>
             </Table>
         </div>
-        <div className="w-96 h-auto dark:bg-base-100 shadow-xl lg:w-3/4 mt-8 bg-sky-100 text-black">
+        <div className="w-96 h-auto dark:bg-base-100 shadow-xl lg:w-3/4 mt-8 bg-sky-100 text-black rounded-lg">
             <div className="card-body space-y-1">
                 {product.Features.map((feature, index) => { return <p key={index}>{feature}</p> })}
             </div>
