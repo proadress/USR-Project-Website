@@ -1,30 +1,22 @@
-# Nextra Docs Template 
+## 安裝
 
-這是用 nextra 和 tailwind css 開發的網站
+```bash
+yarn
+# or
+yarn install
+```
 
-## Local Development 本地開發
+## 啟動
 
-第一步：(必須)安裝環境
-First, run `pnpm i` to install the dependencies.
-
-第二步：執行
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## 資料夾結構
-
-元件都放在components
-所有靜態資源都放在public
-所有頁面都放在page(主要)
-
-其他盡量不要更改
-
-注意！node_modules不要上傳
+```bash
+yarn dev
+```
 
 ## 補充
 
-已經安裝好可以用的css資源
+已經安裝好可以用的 css 資源
 [**Tailinwd css →**](https://tailwindcss.com/)
 
 [**Daisy UI →**](https://daisyui.com/)
 
-
+[**Next UI →**](https://nextui.org/)

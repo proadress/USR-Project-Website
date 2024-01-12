@@ -1,14 +1,22 @@
 /** @type {import('tailwindcss').Config} */
-export const darkMode = 'class';
-export const content = [
-  './pages/**/*.{js,jsx,ts,tsx,md,mdx}',
-  './components/**/*.{js,jsx,ts,tsx,md,mdx}',
 
-  // Or if using `src` directory:
-  './src/**/*.{js,jsx,ts,tsx,md,mdx}'
-];
-export const theme = {
-  extend: {},
-  // other theme configurations...
-};
-export const plugins = [require("daisyui")];
+module.exports = {
+  darkMode: ["class"],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+  ],
+
+  theme: {
+    extend: {
+      colors: {
+        'regal-blue': '#5b67a2',
+      },
+    }
+  },
+  plugins: [require("tailwindcss-animate"), require("daisyui"), require("@nextui-org/react")],
+
+}
