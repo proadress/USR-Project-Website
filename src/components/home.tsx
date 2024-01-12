@@ -4,9 +4,9 @@ import { items } from "./data";
 
 export const HomeSlider = () => {
     const slides = [
-        "slider/88.jpg",
-        "slider/1.jpg",
-        "slider/2.jpg",
+        "slider/adv1.png",
+        "slider/adv3.png",
+        "slider/adv2.png",
     ];
     return (
         <div>
